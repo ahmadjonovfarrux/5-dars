@@ -52,6 +52,11 @@ body {
   background-color: $white;
 }
 
+img {
+  object-fit: cover;
+  outline: none;
+}
+
 a {
   text-decoration: none;
 }
@@ -104,12 +109,32 @@ ul {
   color: $white;
 }
 
+.left__box {
+  width: 6.4rem;
+  height: 6.4rem;
+  background-color: $black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.right__box {
+  width: 6.4rem;
+  height: 6.4rem;
+  background-color: $black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
 // Header
 .header {
   padding-top: 3.4rem;
   padding-bottom: 3.4rem;
 }
-.header__container {
+.logo__container {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -238,4 +263,133 @@ ul {
     margin-top: 14rem;
     margin-left: 2.4rem;
   }
+}
+
+// Founder Info
+.founder__info {
+  padding-top: 10rem;
+  padding-bottom: 8.8rem;
+}
+
+.founder__info__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.founde__info__img {
+  width: 44.5rem;
+  height: 44.5rem;
+  border-radius: 50%;
+}
+
+.founder__info__content {
+  width: 54rem;
+}
+
+.founder__info__title {
+  font-weight: 700;
+  font-size: $middle-fs;
+  line-height: $middle-lh;
+  color: $black;
+  margin-bottom: 3.4rem;
+}
+
+.founder__info__description {
+  font-family: 500;
+  font-size: $small2-fs;
+  line-height: $small2-lh;
+  color: $grey;
+  margin-bottom: 3.2rem;
+}
+// Work styles
+.work {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+.work__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.work__title {
+  font-weight: 700;
+  font-size: $small-fs;
+  line-height: $small-lh;
+  color: $black;
+}
+
+.work__img__box {
+  margin-top: 5.6rem;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.work__img:first-child {
+  width: 35rem;
+  height: 35rem;
+}
+
+.work__img:nth-child(2) {
+  width: 52rem;
+  height: 35rem;
+}
+
+.work__img:nth-child(3) {
+  width: 35rem;
+  height: 35rem;
+}
+
+.work__arrows {
+  width: 14.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 5.6rem;
+}
+
+// Footer
+.footer {
+  padding-top: 3.3rem;
+  padding-bottom: 3rem;
+}
+
+.footer__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 5.6rem;
+}
+
+.footer__contact {
+  width: 100%;
+  height: 32rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: $black;
+  color: $white;
+}
+
+.footer__content {
+  width: 54rem;
+}
+.footer__title {
+  font-weight: 700;
+  font-size: $middle-fs;
+  line-height: $middle-lh;
+  margin-bottom: 2.5rem;
+}
+.footer__description {
+  font-weight: 500;
+  font-size: $small2-fs;
+  line-height: $small2-lh;
+}
+.primary__btn {
+}
+.footer__btn {
 }
