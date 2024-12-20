@@ -53,7 +53,7 @@ ul {
   padding-right: 3rem;
 }
 
-.black__primary__btn {
+.black__btn {
   width: 22.8rem;
   height: 5.6rem;
   padding: 1.4rem 4.5rem;
@@ -65,12 +65,12 @@ ul {
   border-radius: 2.4rem;
 }
 
-.black__primary__btn:hover {
+.black__btn:hover {
   background-color: #755cde;
   color: #fff7f0;
 }
 
-.primary__btn {
+.btn {
   width: 22.8rem;
   height: 5.6rem;
   padding: 1.4rem 4.5rem;
@@ -82,7 +82,7 @@ ul {
   border-radius: 2.4rem;
 }
 
-.primary__btn:hover {
+.btn:hover {
   background-color: #f6a560;
   color: #fff7f0;
 }
@@ -311,7 +311,7 @@ ul {
   height: 35rem;
 }
 
-.work__img:nth-child(2) {
+.work__img {
   width: 52rem;
   height: 35rem;
 }
